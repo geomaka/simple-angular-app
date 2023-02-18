@@ -1,0 +1,30 @@
+[
+{
+    "name":"Yoshi",
+    "belt":"black",
+    "rate":50,
+    "available":true,
+    "thumb":"https://pyxis.nymag.com/v1/imgs/ed8/96c/c234bbdbb3ab62d5b0a3a9f88c6be6c55f-07-tmnt-review.rsquare.w700.jpg"
+},
+{
+    "name":"ryu",
+    "belt":"yellow",
+    "rate":30,
+    "available":false,
+    "thumb":"https://news.toyark.com/wp-content/uploads/sites/4/2023/01/PCS-TMNT-Donatello-Statue-004.jpg"
+},
+{
+    "name":"crystal",
+    "belt":"green",
+    "rate":10,
+    "available":true,
+    "thumb":"https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Raphael.Teenage-Mutant-Ninja-Turtles.webp"
+},
+{
+    "name":"Donnie",
+    "belt":"purple",
+    "rate":20,
+    "available":true,
+    "thumb":"https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Michaelangelo.Teenage-Mutant-Ninja-Turtles.webp"
+}
+]

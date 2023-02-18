@@ -1,0 +1,16 @@
+<div class="content">
+    <form name="contractForm" ng-submit="sendMessage()" novalidate>
+        <input type="text" placeholder="name" name="name" ng-model="contact.name" ng-required="true"/>
+        <div ng-show="contractForm.name.$touched && contractForm.name.$invalid">
+          <small style="color: red; display: block; text-align: center;">Enter a valid a name</small>
+
+        </div>
+        <input type="email" placeholder="Email" name="email" ng-model="contact.eamil" ng-required="true"/>
+        <div ng-show="contractForm.email.$touched && contractForm.email.$invalid">
+            <small style="color: red; display: block; text-align: center;">Enter a valid a Email</small>
+  
+          </div>
+        <textarea placeholder="Your Message" name="message" ng-model="contact.message" ng-required="true"></textarea>
+        <input type="submit" value="send" ng-disabled="contractForm.$invalid"/>
+    </form>
+</div>
