@@ -1,10 +1,9 @@
 
  var myNinjaAPP = angular.module('myNinjaAPP',['ngRoute']);
 
- myNinjaAPP.config(['$routeProvider' ,'$locationProvider',function($routeProvider,$locationProvider){
+ myNinjaAPP.config(['$routeProvider' ,'$locationProvider',function($routeProvider){
      
 
-    // $locationProvider.html5Mode(true)
 
     $routeProvider
     .when('/home', {
